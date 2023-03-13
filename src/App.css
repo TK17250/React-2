@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "IBMPlexSansThai-Medium.woff2";
+    src: url(./ICT-เพื่อการเรียนรู้/IBMPlexSansThai-Medium.woff2);
+}
+
+html,body {
+    font-family: "IBMPlexSansThai-Medium.woff2";
+}
