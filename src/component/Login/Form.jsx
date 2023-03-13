@@ -1,6 +1,6 @@
 import { Button, Form } from 'react-bootstrap';
-import Headerlogin from './header';
-import './login.css'
+import { Link } from 'react-router-dom';
+import './login.css';
 
 
 function BasicExample() {
@@ -17,7 +17,7 @@ function BasicExample() {
 
   return (
     <Form className='container'>
-      <Headerlogin />
+      <h4>Login</h4>
       <div className='p-3'>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Username</Form.Label>
@@ -30,9 +30,10 @@ function BasicExample() {
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
           <Form.Check type="checkbox" onClick={showpassword} label="แสดงรหัสผ่าน" />
         </Form.Group>
-        <Button variant="info" type="submit" className='m-auto d-block'>
+        <Button variant="info" type="submit" className='m-auto But d-block'>
           เข้าสู่ระบบ
         </Button>
+        <Link to="/Register" className='Register'>สมัครสมาชิก</Link>
       </div>
     </Form>
   );

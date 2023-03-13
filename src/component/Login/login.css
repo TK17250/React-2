@@ -1,20 +1,40 @@
 .container {
-    width: 30%;
+    width: 25%;
     margin-top: 15%;
     border: 1px solid gray;
     border-radius: 20px;
     padding: 0;
+    box-shadow: 0px 0px 50px rgb(104, 104, 104);
 }
 
-header {
+/*          header           */
+h4 {
     background-color: #0dcaf0;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     padding: 5px;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
+/*          Register             */
+.Register {
+    text-decoration: none;
+    color: #0dcaf0;
+}
+.Register:hover {
+    color: #11a7c5;
+}
+
+/*          lg screen            */
 @media screen and (max-width: 992px) {
+    .container {
+        width: 40%;
+        margin-top: 50%;
+    }
+}
+/*          md screen            */
+@media screen and (max-width: 767px) {
     .container {
         width: 80%;
         margin-top: 50%;
