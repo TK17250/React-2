@@ -1,9 +1,11 @@
 import './App.css';
-import BasicExample from './component/Login/Form';
+import Register from './component/Register/Register';
 
 function App() {
   return (
-    <BasicExample />
+    <div>
+      <Register />
+    </div>
   );
 }
 

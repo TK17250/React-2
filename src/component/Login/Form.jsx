@@ -33,6 +33,7 @@ function BasicExample() {
         <Button variant="info" type="submit" className='m-auto But d-block'>
           เข้าสู่ระบบ
         </Button>
+        {/*       Link register      */}
         <Link to="/Register" className='Register'>สมัครสมาชิก</Link>
       </div>
     </Form>
