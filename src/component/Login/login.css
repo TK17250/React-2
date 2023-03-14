@@ -1,6 +1,6 @@
 .container {
     width: 25%;
-    margin-top: 15%;
+    margin-top: 10%;
     border: 1px solid gray;
     border-radius: 20px;
     padding: 0;
@@ -30,13 +30,12 @@ h4 {
 @media screen and (max-width: 992px) {
     .container {
         width: 40%;
-        margin-top: 50%;
+        margin-top: 30%;
     }
 }
 /*          md screen            */
 @media screen and (max-width: 767px) {
     .container {
         width: 80%;
-        margin-top: 50%;
     }
 }

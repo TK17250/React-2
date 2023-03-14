@@ -34,7 +34,7 @@ function BasicExample() {
           เข้าสู่ระบบ
         </Button>
         {/*       Link register      */}
-        <Link to="/Register" className='Register'>สมัครสมาชิก</Link>
+        <Link to="/Register" className='Register'>ยังไม่มีบัญชี</Link>
       </div>
     </Form>
   );
